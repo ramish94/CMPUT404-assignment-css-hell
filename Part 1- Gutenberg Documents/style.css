@@ -1,0 +1,77 @@
+body {
+	margin:5%;
+	background-image: url("Parchment.jpg");
+	background-size: 100%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	text-align: justify;
+}
+
+P { 
+	text-indent: 1em; 
+	margin-top: .25em; 
+	margin-bottom: .25em; 
+	font-family: Times;
+}
+
+H1,H2,H3,H4,H5,H6 { 
+	text-align: center; 
+	margin-left: 15%; 
+	margin-right: 15%;
+	font-family: Georgia;
+	font-style: italic;
+	border-style: outset;
+}
+
+hr  { 
+	width: 50%; 
+	text-align: center;
+}
+
+.foot { 
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: justify;
+	text-indent: -3em;
+	font-size: 90%; 
+}
+
+blockquote {
+	font-size: 97%;
+	font-style: italic; 
+	margin-left: 10%; 
+	margin-right: 10%;
+}
+
+.pagenum {
+	display:inline;
+	font-size: 70%;
+	font-style:normal;
+	margin: 0; 
+	padding: 0; 
+	position: absolute;
+	right: 1%;
+	text-align: right;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+pre { 
+	font-style: italic; 
+	font-size: 90%; 
+	margin-left: 10%;
+}
